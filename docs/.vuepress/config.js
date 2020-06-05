@@ -30,6 +30,7 @@ module.exports = {
           { text: '首页', link: '/' },
           { text: '笔记', link: '/notes/' },
           { text: '札册', link: '/books/' },
+          { text: '轻文档', link: '/lightdocs/' },
           { text: '学习日记', link: '/diaries/' },
         ],
         sns: {
@@ -38,7 +39,7 @@ module.exports = {
               link: 'https://github.com/KeyAI'
             }
         },
-        lastUpdated: '上次更新时间',
+        lastUpdated: 'Last Updated',
         sidebar: {
             '/notes/': [
 
