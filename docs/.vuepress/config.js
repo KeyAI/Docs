@@ -42,13 +42,16 @@ module.exports = {
         lastUpdated: 'Last Updated',
         sidebar: {
             '/notes/': [
-
+                ['','笔记'],
             ],
             '/books/': [
-
+                ['','札册'],
+            ],
+            '/lightdocs/': [
+                ['','轻文档'],
             ],
             '/diaries/': [
-                ['','学习日记首页'],
+                ['','学习日记'],
                 {
                     title: '20-06',
                     // path: '/foo/',      // 标题的跳转链接，应为绝对路径且必须存在
