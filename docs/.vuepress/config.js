@@ -58,7 +58,19 @@ module.exports = {
                     // collapsable: false, // 默认值是 true,设置 false 来让一个组永远都是展开状态。
                     // sidebarDepth: 1,    // 默认值是 1
                     children: [
-                        ['/diaries/20-06/06-w2', 'week2'],
+                        {
+                            title: 'week2',
+                            sidebarDepth: 0,
+                            children: [
+                                '/diaries/20-06/06-08',
+                                '/diaries/20-06/06-09',
+                                '/diaries/20-06/06-10',
+                                '/diaries/20-06/06-11',
+                                '/diaries/20-06/06-12',
+                                '/diaries/20-06/06-13',
+                                '/diaries/20-06/06-14',
+                            ]
+                        },
                     ]
                 },
             ]
