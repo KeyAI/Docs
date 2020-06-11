@@ -63,8 +63,6 @@ module.exports = {
                             sidebarDepth: 0,
                             children: [
                                 '/diaries/20-06/06-08',
-                                '/diaries/20-06/06-09',
-                                '/diaries/20-06/06-10',
                                 '/diaries/20-06/06-11',
                                 '/diaries/20-06/06-12',
                                 '/diaries/20-06/06-13',
