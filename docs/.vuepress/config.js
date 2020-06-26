@@ -39,7 +39,7 @@ module.exports = {
               link: 'https://github.com/KeyAI'
             }
         },
-        lastUpdated: 'Last Updated',
+        lastUpdated: '上次更新',
         sidebar: {
             '/notes/': [
                 ['','笔记'],
@@ -58,17 +58,26 @@ module.exports = {
                     // collapsable: false, // 默认值是 true,设置 false 来让一个组永远都是展开状态。
                     // sidebarDepth: 1,    // 默认值是 1
                     children: [
-                        {
-                            title: 'week2',
-                            sidebarDepth: 0,
-                            children: [
-                                '/diaries/20-06/06-08',
-                                '/diaries/20-06/06-11',
-                                '/diaries/20-06/06-12',
-                                '/diaries/20-06/06-13',
-                                '/diaries/20-06/06-14',
-                            ]
-                        },
+                        '/diaries/20-06/06-08',
+                        '/diaries/20-06/06-11',
+                        '/diaries/20-06/06-24',
+                        // {
+                        //     title: 'week2',
+                        //     sidebarDepth: 0,
+                        //     children: [
+                        //         '/diaries/20-06/06-08',
+                        //         '/diaries/20-06/06-11',
+                        //         '/diaries/20-06/06-24',
+                        // },
+                        // {
+                        //     title: 'week3',
+                        //     sidebarDepth: 0,
+                        //     children: [
+                        //         '/diaries/20-06/06-19',
+                        //         '/diaries/20-06/06-20',
+                        //         '/diaries/20-06/06-21',
+                        //     ]
+                        // },
                     ]
                 },
             ]
