@@ -1,3 +1,9 @@
+/*
+ * @Author: KeyAI
+ * @Date: 2020-06-27 00:30:43
+ * @LastEditTime: 2020-09-05 16:44:03
+ * @Description: 
+ */
 module.exports = {
     //基本配置
     title: '浮槎游记',
@@ -49,6 +55,7 @@ module.exports = {
             ],
             '/lightdocs/': [
                 ['','轻文档'],
+                ['vim','Vim'],
             ],
             '/diaries/': [
                 ['','学习日记'],
