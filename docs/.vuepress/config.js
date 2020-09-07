@@ -1,7 +1,7 @@
 /*
  * @Author: KeyAI
  * @Date: 2020-06-27 00:30:43
- * @LastEditTime: 2020-09-05 16:54:32
+ * @LastEditTime: 2020-09-07 19:33:28
  * @Description: 
  */
 module.exports = {
@@ -56,6 +56,7 @@ module.exports = {
             '/lightdocs/': [
                 ['','轻文档'],
                 ['vim','Vim'],
+                ['git','Git'],
             ],
             '/diaries/': [
                 ['','学习日记'],
