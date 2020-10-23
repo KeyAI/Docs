@@ -1,7 +1,7 @@
 /*
  * @Author: KeyAI
  * @Date: 2020-06-27 00:30:43
- * @LastEditTime: 2020-09-07 19:33:28
+ * @LastEditTime: 2020-10-24 01:53:48
  * @Description: 
  */
 module.exports = {
@@ -61,6 +61,21 @@ module.exports = {
             '/diaries/': [
                 ['','学习日记'],
                 {
+                    title: '20-10',
+                    children: [
+                        '/diaries/20-10/10-24',
+                        '/diaries/20-10/10-23',
+                        '/diaries/20-10/10-22',
+                        '/diaries/20-10/10-21',
+                    ]
+                },
+                {
+                    title: '20-08',
+                    children: [
+                        '/diaries/20-08/08-01',
+                    ]
+                },
+                {
                     title: '20-06',
                     // path: '/foo/',      // 标题的跳转链接，应为绝对路径且必须存在
                     // collapsable: false, // 默认值是 true,设置 false 来让一个组永远都是展开状态。
@@ -87,12 +102,6 @@ module.exports = {
                         //         '/diaries/20-06/06-21',
                         //     ]
                         // },
-                    ]
-                },
-                {
-                    title: '20-08',
-                    children: [
-                        '/diaries/20-08/08-01',
                     ]
                 },
             ]
