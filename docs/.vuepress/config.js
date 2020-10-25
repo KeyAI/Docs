@@ -1,7 +1,7 @@
 /*
  * @Author: KeyAI
  * @Date: 2020-06-27 00:30:43
- * @LastEditTime: 2020-10-24 01:53:48
+ * @LastEditTime: 2020-10-25 19:34:15
  * @Description: 
  */
 module.exports = {
@@ -57,6 +57,7 @@ module.exports = {
                 ['','轻文档'],
                 ['vim','Vim'],
                 ['git','Git'],
+                ['VSCode','VSCode'],
             ],
             '/diaries/': [
                 ['','学习日记'],
