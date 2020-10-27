@@ -1,11 +1,7 @@
 /*
  * @Author: KeyAI
  * @Date: 2020-06-27 00:30:43
-<<<<<<< HEAD
- * @LastEditTime: 2020-10-28 02:02:09
-=======
- * @LastEditTime: 2020-10-26 00:32:42
->>>>>>> 8994bec... update
+ * @LastEditTime: 2020-10-28 03:57:04
  * @Description: 
  */
 module.exports = {
@@ -41,6 +37,7 @@ module.exports = {
           { text: '笔记', link: '/notes/' },
           { text: '札册', link: '/books/' },
           { text: '轻文档', link: '/lightdocs/' },
+          { text: '开发笔记', link: '/dev/' },
           { text: '学习日记', link: '/diaries/' },
         ],
         sns: {
@@ -62,6 +59,9 @@ module.exports = {
                 ['vim','Vim'],
                 ['git','Git'],
                 ['VSCode','VSCode'],
+            ],
+            '/dev/': [
+                ['','开发笔记'],
             ],
             '/diaries/': [
                 ['','学习日记'],

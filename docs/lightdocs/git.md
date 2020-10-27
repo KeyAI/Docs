@@ -1,5 +1,7 @@
 # Git
 
+## 常用命令
+
 | **命令**                                               | **功能**                                                     |
 | ------------------------------------------------------ | ------------------------------------------------------------ |
 | `git add [文件名]`                                     | 跟踪此文件，即把文件添加到暂存区                             |
@@ -54,3 +56,47 @@
 | `git push origin :refs/tags/[标签名]`                  | 删除远程仓库的标签                                           |
 | `git checkout [标签名]`                                | 切换到某个标签的提交版本                                     |
 
+## Rebase 相关
+
+Rebase 变基，是将提交到某一分支上的所有修改都移至另一分支上。变基操作的实质是丢弃一些现有的提交，然后相应地新建一些内容一样但实际上不同的提交在对应分支上。
+
+### 通常使用方式
+
+1. 切换到主分支（需要 push 到的远程分支对应的本地分支），并拉取最新分支状态；然后切换回待 push 的本地开发分支。
+
+   ```bash
+   git checkout master
+   git pull --rebase
+   git checkout local
+   
+   // 注：
+   // git pull = git fetch + git merge
+   // git pull --rebase = git fetch + git rebase
+   ```
+
+2. 合并本地提交 
+
+   ```bash
+   git rebase -i HEAD~2 //或 git rebase -i [startpoint]  [endpoint]
+   ```
+
+   - HEAD~2 表示合并最近的两个提交。
+   - 或用参数` [startpoint]  [endpoint] `指定一个编辑区间（前开后闭）代替 HEAD~n，[endpoint] 缺省值是当前分支 HEAD 所指向的 commit。
+
+3. 将当前分支 rebase 到主分支，过程中需要解决冲突。（若执行了第 2 步仅需解决一次冲突）
+
+   ```
+   git rebase master
+   若存在冲突，解决冲突并 git add .
+   git rebase --continue
+   
+   // git rebase --abort 取消本次 rebase
+   ```
+
+4. 切换到主分支，并合并开发分支，push 到远程仓库。
+
+   ```
+   git checkout master
+   git merge local
+   git push
+   ```
