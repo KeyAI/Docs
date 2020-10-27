@@ -1,8 +1,6 @@
-# [浮槎游记](https://keyai.github.io/docs/)
-
-![Logo](https://keyai.github.io/docs/img/logo.jpg)
-
-# 基于 VuePress 构建的个人笔记文档系统
+<div align=center><img src="https://keyai.github.io/docs/img/logo.jpg" alt="Logo" style="zoom:25%;" /></div>
+<h1 align="center"><a href="https://keyai.github.io/docs/">浮槎游记</a> </h1>
+<h1 align="center">基于 VuePress 构建的个人笔记文档系统 </h1>
 
 > **思考**，而后笔记。
 >
