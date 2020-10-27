@@ -1,7 +1,11 @@
 /*
  * @Author: KeyAI
  * @Date: 2020-06-27 00:30:43
- * @LastEditTime: 2020-10-25 19:34:15
+<<<<<<< HEAD
+ * @LastEditTime: 2020-10-28 02:02:09
+=======
+ * @LastEditTime: 2020-10-26 00:32:42
+>>>>>>> 8994bec... update
  * @Description: 
  */
 module.exports = {
@@ -64,6 +68,8 @@ module.exports = {
                 {
                     title: '20-10',
                     children: [
+                        '/diaries/20-10/10-28',
+                        '/diaries/20-10/10-27',
                         '/diaries/20-10/10-24',
                         '/diaries/20-10/10-23',
                         '/diaries/20-10/10-22',
