@@ -12,15 +12,15 @@
 
 ## 目录结构
 
-- ### [笔记](https://keyai.github.io/docs/notes/) —— 简洁的知识性笔记。
+- [笔记](https://keyai.github.io/docs/notes/) —— 简洁的知识性笔记。
 
-- ### [札册](https://keyai.github.io/docs/books/) —— 读书笔记（思考性）。
+- [札册](https://keyai.github.io/docs/books/) —— 读书笔记（思考性）。
 
-- ### [轻文档](https://keyai.github.io/docs/lightdocs/) —— 减少搜索成本的速查文档。
+- [轻文档](https://keyai.github.io/docs/lightdocs/) —— 减少搜索成本的速查文档。
 
-- ### [学习日记](https://keyai.github.io/docs/diaries/) —— 每日学习笔记，其它笔记的基础，定期整理。
+- [学习日记](https://keyai.github.io/docs/diaries/) —— 每日学习笔记，其它笔记的基础，定期整理。
 
-- ### [开发笔记](https://keyai.github.io/docs/dev/) —— 实际项目开发相关笔记，如环境配置、优化方案、遇到的问题及解决思路。
+- [开发笔记](https://keyai.github.io/docs/dev/) —— 实际项目开发相关笔记，如环境配置、优化方案、遇到的问题及解决思路。
 
 ##  说明
 
