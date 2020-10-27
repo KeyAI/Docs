@@ -1,4 +1,4 @@
-<div align=center><img src="https://keyai.github.io/docs/img/logo.jpg" alt="Logo" width=25%/></div>
+<div align=center><img src="https://keyai.github.io/docs/img/logo.jpg" alt="Logo" width=20%/></div>
 <h1 align="center"><a href="https://keyai.github.io/docs/">浮槎游记</a> </h1>
 <h1 align="center">基于 VuePress 构建的个人笔记文档系统 </h1>
 
@@ -10,15 +10,11 @@
 
 ## 目录结构
 
-- [笔记](https://keyai.github.io/docs/notes/) —— 简洁的知识性笔记。
-
-- [札册](https://keyai.github.io/docs/books/) —— 读书笔记（思考性）。
-
-- [轻文档](https://keyai.github.io/docs/lightdocs/) —— 减少搜索成本的速查文档。
-
-- [学习日记](https://keyai.github.io/docs/diaries/) —— 每日学习笔记，其它笔记的基础，定期整理。
-
-- [开发笔记](https://keyai.github.io/docs/dev/) —— 实际项目开发相关笔记，如环境配置、优化方案、遇到的问题及解决思路。
+- [:notebook_with_decorative_cover:笔记](https://keyai.github.io/docs/notes/) —— 简洁的知识性笔记。
+- [:books:札册](https://keyai.github.io/docs/books/) —— 读书笔记（思考性）。
+- [:clipboard:轻文档](https://keyai.github.io/docs/lightdocs/) —— 减少搜索成本的速查文档。
+- [:hammer:开发笔记](https://keyai.github.io/docs/dev/) —— 实际项目开发相关笔记，如环境配置、优化方案、遇到的问题及解决思路。
+- [:calendar:学习日记](https://keyai.github.io/docs/diaries/) —— 每日学习笔记，其它笔记的基础，定期整理。
 
 ##  说明
 
