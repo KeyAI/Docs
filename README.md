@@ -1,4 +1,4 @@
-<div align=center><img src="https://keyai.github.io/docs/img/logo.jpg" alt="Logo" width=10%/></div>
+<div align=center><img src="https://keyai.github.io/docs/img/logo.jpg" alt="Logo" width=25%/></div>
 <h1 align="center"><a href="https://keyai.github.io/docs/">浮槎游记</a> </h1>
 <h1 align="center">基于 VuePress 构建的个人笔记文档系统 </h1>
 
