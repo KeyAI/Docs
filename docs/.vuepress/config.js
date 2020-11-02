@@ -1,7 +1,7 @@
 /*
  * @Author: KeyAI
  * @Date: 2020-06-27 00:30:43
- * @LastEditTime: 2020-10-29 02:13:25
+ * @LastEditTime: 2020-11-03 00:10:22
  * @Description: 
  */
 module.exports = {
@@ -66,11 +66,16 @@ module.exports = {
             '/diaries/': [
                 ['','学习日记'],
                 {
+                    title: '20-11',
+                    children: [
+                        '/diaries/20-11/11-03',
+                        '/diaries/20-11/11-02',
+                    ]
+                },
+                {
                     title: '20-10',
                     children: [
-                        '/diaries/20-10/10-31',
                         '/diaries/20-10/10-30',
-                        '/diaries/20-10/10-29',
                         '/diaries/20-10/10-28',
                         '/diaries/20-10/10-27',
                         '/diaries/20-10/10-24',
