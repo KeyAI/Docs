@@ -1,7 +1,7 @@
 /*
  * @Author: KeyAI
  * @Date: 2020-06-27 00:30:43
- * @LastEditTime: 2020-12-07 19:19:03
+ * @LastEditTime: 2020-12-07 19:27:11
  * @Description: 
  */
 module.exports = {
@@ -108,42 +108,36 @@ module.exports = {
                         '/diaries/20-08/08-01',
                     ]
                 },
-                {
-                    title: '20-06',
-                    // path: '/foo/',      // 标题的跳转链接，应为绝对路径且必须存在
-                    // collapsable: false, // 默认值是 true,设置 false 来让一个组永远都是展开状态。
-                    // sidebarDepth: 1,    // 默认值是 1
-                    children: [
-                        '/diaries/20-06/06-08',
-                        '/diaries/20-06/06-11',
-                        '/diaries/20-06/06-19',
-                        '/diaries/20-06/06-24',
-                        // {
-                        //     title: 'week2',
-                        //     sidebarDepth: 0,
-                        //     children: [
-                        //         '/diaries/20-06/06-08',
-                        //         '/diaries/20-06/06-11',
-                        //         '/diaries/20-06/06-24',
-                        // },
-                        // {
-                        //     title: 'week3',
-                        //     sidebarDepth: 0,
-                        //     children: [
-                        //         '/diaries/20-06/06-19',
-                        //         '/diaries/20-06/06-20',
-                        //         '/diaries/20-06/06-21',
-                        //     ]
-                        // },
-                        '/diaries/20-11/11-23',
-                        '/diaries/20-11/11-22',
-                        '/diaries/20-11/11-16',
-                        '/diaries/20-11/11-07',
-                        '/diaries/20-11/11-05',
-                        '/diaries/20-11/11-04',
-                        '/diaries/20-11/11-02',
-                    ]
-                },
+                // {
+                //     title: '20-06',
+                //     // path: '/foo/',      // 标题的跳转链接，应为绝对路径且必须存在
+                //     // collapsable: false, // 默认值是 true,设置 false 来让一个组永远都是展开状态。
+                //     // sidebarDepth: 1,    // 默认值是 1
+                //     children: [
+                //         '/diaries/20-06/06-08',
+                //         '/diaries/20-06/06-11',
+                //         '/diaries/20-06/06-19',
+                //         '/diaries/20-06/06-24',
+                //         // {
+                //         //     title: 'week2',
+                //         //     sidebarDepth: 0,
+                //         //     children: [
+                //         //         '/diaries/20-06/06-08',
+                //         //         '/diaries/20-06/06-11',
+                //         //         '/diaries/20-06/06-24',
+                //         // },
+                //         // {
+                //         //     title: 'week3',
+                //         //     sidebarDepth: 0,
+                //         //     children: [
+                //         //         '/diaries/20-06/06-19',
+                //         //         '/diaries/20-06/06-20',
+                //         //         '/diaries/20-06/06-21',
+                //         //     ]
+                //         // },
+                       
+                //     ]
+                // },
                 
             ]
         },
