@@ -1,7 +1,7 @@
 /*
  * @Author: KeyAI
  * @Date: 2020-06-27 00:30:43
- * @LastEditTime: 2020-12-02 10:51:16
+ * @LastEditTime: 2020-12-07 19:19:03
  * @Description: 
  */
 module.exports = {
@@ -144,53 +144,7 @@ module.exports = {
                         '/diaries/20-11/11-02',
                     ]
                 },
-                {
-                    title: '20-10',
-                    children: [
-                        '/diaries/20-10/10-30',
-                        '/diaries/20-10/10-28',
-                        '/diaries/20-10/10-27',
-                        '/diaries/20-10/10-24',
-                        '/diaries/20-10/10-23',
-                        '/diaries/20-10/10-22',
-                        '/diaries/20-10/10-21',
-                    ]
-                },
-                {
-                    title: '20-08',
-                    children: [
-                        '/diaries/20-08/08-01',
-                    ]
-                },
-                {
-                    title: '20-06',
-                    // path: '/foo/',      // 标题的跳转链接，应为绝对路径且必须存在
-                    // collapsable: false, // 默认值是 true,设置 false 来让一个组永远都是展开状态。
-                    // sidebarDepth: 1,    // 默认值是 1
-                    children: [
-                        '/diaries/20-06/06-08',
-                        '/diaries/20-06/06-11',
-                        '/diaries/20-06/06-19',
-                        '/diaries/20-06/06-24',
-                        // {
-                        //     title: 'week2',
-                        //     sidebarDepth: 0,
-                        //     children: [
-                        //         '/diaries/20-06/06-08',
-                        //         '/diaries/20-06/06-11',
-                        //         '/diaries/20-06/06-24',
-                        // },
-                        // {
-                        //     title: 'week3',
-                        //     sidebarDepth: 0,
-                        //     children: [
-                        //         '/diaries/20-06/06-19',
-                        //         '/diaries/20-06/06-20',
-                        //         '/diaries/20-06/06-21',
-                        //     ]
-                        // },
-                    ]
-                },
+                
             ]
         },
     }
