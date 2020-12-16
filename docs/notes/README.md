@@ -1,7 +1,5 @@
 # 真正受用的笔记
 
-![四宫辉夜 PID：81060761](https://keyai.oss-cn-beijing.aliyuncs.com/img/81060761_p0.jpg)
-
 > 写下这些笔记之前，我希望它们：
 >
 > - 简洁、高可用
