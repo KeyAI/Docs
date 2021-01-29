@@ -66,6 +66,12 @@ module.exports = {
             '/diaries/': [
                 ['','学习日记'],
                 {
+                    title: '21',
+                    children: [
+                        '/diaries/21/M1W4',
+                    ]
+                },
+                {
                     title: '20-12',
                     children: [
                         '/diaries/20-12/12-02',
