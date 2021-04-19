@@ -68,6 +68,7 @@ module.exports = {
                 {
                     title: '21-04',
                     children: [
+                        '/diaries/21-04/M4W3',
                         '/diaries/21-04/M4W2',
                     ]
                 },
